@@ -1,4 +1,7 @@
-
+* The statement after || means to use the local mongoDB server if you have that installed
+on your machine.
+* Replace the CONNECTION_STRING variable with your Connection String that you got
+from Step 4.
 require('dotenv').config()
 const mongoose = require("mongoose");
 // Connect to MongoDB --- Replace this with your Connection String
