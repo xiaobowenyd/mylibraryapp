@@ -4,11 +4,13 @@
   "description": "Library App project for workshops in INFO30005",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
+    "start": "node app.js"
   },
   "author": "Ronal Singh",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
   }
 }
