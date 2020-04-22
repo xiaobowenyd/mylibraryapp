@@ -4,7 +4,7 @@
   "description": "Library App project for workshops in INFO30005",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node app.js"
   },
   "author": "Ronal Singh",
   "license": "ISC",
